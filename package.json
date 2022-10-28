@@ -2,7 +2,7 @@
     "name": "sli",
     "displayName": "SLI syntax colouring",
     "description": "Syntax colouring for the SLI language.",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "publisher": "hakonsbm",
     "engines": {
         "vscode": "^1.28.0"

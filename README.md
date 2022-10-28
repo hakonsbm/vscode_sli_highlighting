@@ -2,12 +2,18 @@
 
 Syntax highlighting for SLI.
 
+To install, copy the SLI extension folder into the `<user home>/.vscode/extensions` folder and reload Code.
+
 ## Known Issues
 
 - Nested parentheses break string syntax coloring.
-- Missing highlighting for some keywords.
 
 ## Release Notes
+
+### 1.2.0
+
+- Added missing keywords
+- Added missing highlighting for double vector (<. ... .>)
 
 ### 1.0.0
 

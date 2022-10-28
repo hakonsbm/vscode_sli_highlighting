@@ -1,0 +1,35 @@
+{
+    "name": "sli",
+    "displayName": "SLI syntax colouring",
+    "description": "Syntax colouring for the SLI language.",
+    "version": "1.0.0",
+    "publisher": "hakonsbm",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "sli",
+                "aliases": [
+                    "SLI",
+                    "sli"
+                ],
+                "extensions": [
+                    ".sli"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "sli",
+                "scopeName": "source.sli",
+                "path": "./syntaxes/sli.tmLanguage.json"
+            }
+        ]
+    }
+}

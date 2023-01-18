@@ -2,7 +2,7 @@
 
 Syntax highlighting for SLI.
 
-To install, copy the SLI extension folder into the `<user home>/.vscode/extensions` folder and reload Code.
+To install, copy the SLI extension folder (this folder) into the `<user home>/.vscode/extensions` folder and reload VS Code.
 
 ## Known Issues
 
